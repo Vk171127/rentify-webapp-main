@@ -110,7 +110,7 @@ const LoginForm = () => {
       </CardContent>
       <CardFooter className="flex justify-between flex-col">
         <Link className="text-xs" href="/auth/register">
-          Don't have an account?
+          Dont have an account?
         </Link>
       </CardFooter>
     </Card>
