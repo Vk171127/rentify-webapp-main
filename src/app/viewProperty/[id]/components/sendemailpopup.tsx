@@ -51,7 +51,7 @@ const EmailDialog: React.FC<InterestedDialogProps> = ({
 
   const handleButtonClick = () => {
     if (!session) {
-      router.push('/login'); // Redirect to login page
+      router.push('/auth/login'); // Redirect to login page
     } else {
       setOpen(true);
       sendMessage(userData, customerData);
